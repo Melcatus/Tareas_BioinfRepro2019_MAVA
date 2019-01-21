@@ -1,4 +1,4 @@
-####4.1.3  Running process_radtag
+#### 4.1.3  Running process_radtag
 
 Here is how single-end data received from an Illumina sequencer might look:
 ```
