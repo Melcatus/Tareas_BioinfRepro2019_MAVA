@@ -1,4 +1,4 @@
-#### 4.1.3  Running process_radtag
+####4.1.3  Running process_radtag
 
 Here is how single-end data received from an Illumina sequencer might look:
 ```
@@ -9,7 +9,7 @@ lane3_NoIndex_L003_R1_003.fastq.gz  lane3_NoIndex_L003_R1_008.fastq.gz  lane3_No
 lane3_NoIndex_L003_R1_004.fastq.gz  lane3_NoIndex_L003_R1_009.fastq.gz
 lane3_NoIndex_L003_R1_005.fastq.gz  lane3_NoIndex_L003_R1_010.fastq.gz
 ```
-Then you can run == process_radtags == in the following way:
+Then you can run ==process_radtags== in the following way:
 ```
 process_radtags -p ./raw/ -o ./samples/ -b ./barcodes/barcodes_lane3 \
                   -e sbfI -r -c -q
@@ -51,3 +51,5 @@ The ==process_radtags== program wants to keep the reads in *phase*, so that the 
 The ==process_radtags== program can be modified in several ways. If your data do not have barcodes, omit the barcodes file and the program will not try to demultiplex the data. You can also disable the checking of the restriction enzyme cut site, or modify what types of quality are checked for. So, the program can be modified to only demultiplex and not clean, clean but not demultiplex, or some combination.
 
 There is additional information available in [==process_radtags== manual page.](http://catchenlab.life.illinois.edu/stacks/comp/process_radtags.php)
+
+==hola==
