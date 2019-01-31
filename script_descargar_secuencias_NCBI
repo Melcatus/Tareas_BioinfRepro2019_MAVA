@@ -1,0 +1,8 @@
+#!/bin/bash
+#Este script baja 5 secuencias de genes de la especie Gossypium hirsutum
+#crear directorio
+mkdir secuencias_ghirsutum
+#descargar secuencias
+curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&rettype=fasta&id=6911172,297748112,62131148,297748114,47499084" > secuencias_ghirsutum/genes.txt
+#contar las veces que se repite la secuencia TGCA
+grep -c "TGCA" secuencias_ghirsutum/genes.txt > secuencias_ghirsutum/conteo_de_tgca.txt
