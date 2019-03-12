@@ -3,7 +3,8 @@
 This directory contains the scripts, data, metadata and the results from the project of Unit 5 of the class *Introducción a la Bioinformática para Biólogo/as y Genetistas*:  **Analysis of genetic of cotton**.
 
 ### Data
-In this project, the data correspond to those used in the article *Diversity *. [Data access link](https://www.cottongen.org/data/community_projects/tamu63k/data)
+In this project, the data correspond to those used in the article *Diversity Diversity analysis of cotton (Gossypium
+hirsutum L.) germplasm using the CottonSNP63K Array*. [Data access link (https://www.cottongen.org/data/community_projects/tamu63k/data)
 
 ### Prerequisites
 PLINK v1.90b3m
