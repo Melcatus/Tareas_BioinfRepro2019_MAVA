@@ -14,7 +14,7 @@ R 3.5.2
 ggplot2
 
 ### Data analysis
-**PLINK v1.90b3m** will be used to calculate SNP allele frequencies with ```-freq``` option and to stimates of expected heterozygosity with ```-hardy```.
+**PLINK v1.90b3m** will be used to calculate SNP allele frequencies with ```--freq``` option, to stimates of expected heterozygosity with ```--hardy``` and to defined polymorphic SNPs with a minor allele frequency (MAF) gretaeer than 0.01.
 
 **VCFtools 0.1.15** will be used to calculate the number of homozygous difference between domesticated and wild populations.
 
