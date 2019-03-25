@@ -1,0 +1,9 @@
+#Este es el scritp en el que se detalla el uso de PLINK para el
+#analisis de los datos contenidos en el archivo BushaLive_MC-17-1542_PLINK
+
+#filtrado de polymorphic SNPs defined as those with a minos allele frequency greater that 0.01
+
+plink --file BushaLive_MC-17-1542_PLINK --chr-set 30 --maf 0.01 --out bos_fil
+
+#calculated fequency 
+
