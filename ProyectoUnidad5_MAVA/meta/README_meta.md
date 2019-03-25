@@ -1,1 +1,1 @@
-# README of *meta data* directory
+# README of *meta* directory
