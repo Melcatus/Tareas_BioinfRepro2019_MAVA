@@ -1,6 +1,6 @@
 # README
 
-This directory contains the scripts, data, metadata and the results from the project of Unit 5 of the class *Introducción a la Bioinformática para Biólogo/as y Genetistas*:  **Genetic of populations analysis of *Bos taurus*. **
+This directory contains the scripts, data, metadata and the results from the project of Unit 5 of the class *Introducción a la Bioinformática para Biólogo/as y Genetistas*:  **Genetic of populations analysis of *Bos taurus*.**
 
 ### Data
 In this project, the data correspond to those used in the article *Conservation of a domestic metapopulation structured into related and partly admixed strains*. [Data access link](https://datadryad.org/resource/doi:10.5061/dryad.q00k37c)
