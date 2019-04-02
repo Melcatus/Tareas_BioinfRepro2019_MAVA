@@ -16,7 +16,7 @@ snpset.id <- unlist(snpset_pruned)
 #Run the PCA
 pca <- snpgdsPCA(genofile, num.thread = 2, eigen.cnt = 16, 
                  snp.id = snpset.id, missing.rate = 0.10, 
-                 maf = 0.05,autosome.only = F)
+                 maf = 0.01,autosome.only = F)
 #Look at the percent variance explained
 pc.percent <- pca$varprop*100
 head(round(pc.percent, 2))
