@@ -15,7 +15,8 @@
   - Cobertura
   - Error de la plataforma
   - Librería empleada
-  La elección de parámetros para el ensamblado no es trivial ya que, dependiendo de cuáles se empleen, variarán los resultados de nuestro set de datos. En algunos estudios, dejan los valores preestrablecidos, sin embargo, estos no siempre cumplirían con los requerimientos para explicar la biología de la especie estudiada, es por esto que se han propuesto métodos para establecer los valores adecuados de los parámetros.
+  
+La elección de parámetros para el ensamblado no es trivial ya que, dependiendo de cuáles se empleen, variarán los resultados de nuestro set de datos. En algunos estudios, dejan los valores preestrablecidos, sin embargo, estos no siempre cumplirían con los requerimientos para explicar la biología de la especie estudiada, es por esto que se han propuesto métodos para establecer los valores adecuados de los parámetros.
 
 
 ## Discusión
